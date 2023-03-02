@@ -1,0 +1,35 @@
+button {
+  text-decoration: none;
+  padding: 0.25rem 1.0rem;
+  font: inherit;
+  background-color: #e4655f;
+  border: 1px solid #e4655f;
+  color: white;
+  cursor: pointer;
+  border-radius: 30px;
+  margin-right: 0.5rem;
+  display: inline-block;
+}
+
+button:hover,
+button:active {
+  background-color: #e4655f;
+  border-color: #e4655f;
+}
+
+.flat {
+  background-color: transparent;
+  color: #e4655f;
+  border: none;
+}
+
+.outline {
+  background-color: transparent;
+  border-color: #e4655f;
+  color: #e4655f;
+}
+
+.outline:hover,
+.outline:active {
+  background-color: #e4655f;
+}
